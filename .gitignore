@@ -1,0 +1,27 @@
+# 빌드 결과물 제외
+*.exe
+*.obj
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.ipch
+*.idb
+*.log
+*.sdf
+
+# Visual Studio 특정 파일 제외
+.vs/
+*.vcxproj.user
+*.VC.db
+
+# 중간 파일 및 바이너리 폴더 제외
+x64/
+bin/
+obj/
+
+# 환경 설정 파일
+CMakeCache.txt
+
+# OpenCV 라이브러리 제외
+Libs/opencv-4.11.0/
